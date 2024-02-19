@@ -8,7 +8,9 @@ export const App = () => {
     <div data-cy="app">
       <Navbar />
 
-      <header>Page Header</header>
+      <header>
+        <h1>Feature 01 title</h1>
+      </header>
 
       <div className="section">
         <div className="container">
@@ -17,6 +19,8 @@ export const App = () => {
           <PeoplePage />
         </div>
       </div>
+
+      <footer>Feature 01 footer</footer>
     </div>
   );
 };
