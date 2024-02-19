@@ -8,7 +8,9 @@ export const App = () => {
     <div data-cy="app">
       <Navbar />
 
-      <h1>Feature 01 title</h1>
+      <header>
+        <h1>Feature 01 title</h1>
+      </header>
 
       <div className="section">
         <div className="container">
